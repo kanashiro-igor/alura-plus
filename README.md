@@ -1,4 +1,4 @@
-# alura-plus ![Static Badge](https://img.shields.io/badge/License-MIT-blue) ![Static Badge](https://img.shields.io/badge/HTML-green) ![Static Badge](https://img.shields.io/badge/CSS-green)
+# alura-plus ![Static Badge](https://img.shields.io/badge/HTML-green) ![Static Badge](https://img.shields.io/badge/CSS-green) ![Static Badge](https://img.shields.io/badge/License-MIT-blue)
 
 
 
