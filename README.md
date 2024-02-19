@@ -2,7 +2,9 @@
 
 
 
-Webpage using HTML and CSS. Course: HTML and CSS, from Alura.
+Webpage using HTML and CSS.
+
+Course: HTML and CSS, from Alura.
 
 Figma Project:
 
