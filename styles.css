@@ -11,7 +11,7 @@ body {
     background-color: var(--background-color);
     color: var(--primary-white);
     font-family: var(--primary-font);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
 }
 
@@ -23,7 +23,7 @@ body {
 .main {
     background-image: url("./img/background.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     align-items: center;
     text-align: center;
 }
@@ -232,6 +232,10 @@ body {
         margin: 1em 1em;
     }
 
+    .devices__title {
+        margin: 0 5em;
+    }
+
     .devices__list {
         margin: 5em 5em;
     }
@@ -246,5 +250,39 @@ body {
 
     .footnote {
         margin: 5em 12em 4em;
+    }
+
+    @media screen and (max-width: 700px) {
+
+        .container__image {
+            width: 90%;
+        }
+
+        .secondary__image {
+            width: 80%;
+        }
+
+        .secondary {
+            margin: 0 3em 5em;
+        }
+
+        .devices__title {
+            margin: 0 2em;
+            font-size: 32px;
+            
+        }
+
+        .devices__list {
+            flex-direction: column;
+            margin: 5em 3em;
+        }
+
+        .footnote {
+            margin: 5em 3em 4em;
+        }
+        
+        .footnote__list {
+            flex-direction: column;
+        }
     }
 }
